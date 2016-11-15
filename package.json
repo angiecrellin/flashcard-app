@@ -1,7 +1,7 @@
 {
   "name": "thinkful-react-starter",
   "version": "0.0.1",
-  "description": "A React template",
+  "description": "Flashcard App",
   "main": "js/index.js",
   "scripts": {
     "start": "http-server -c-1 build",
@@ -36,6 +36,7 @@
     "_build:assets": "cpr assets build/assets",
     "watch:assets": "run-s build:assets _watch:assets",
     "_watch:assets": "chokidar assets/**/* -c \"npm run build:assets\""
+    
   },
   "author": "Joe Turner <joe@oampo.co.uk>",
   "license": "UNLICENSED",
